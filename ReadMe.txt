@@ -1,20 +1,17 @@
-/*
- * Kod Kompilatora do projektu z JFTT2023
- *
- * Autor: Paweł Grzegorzewski
-*/
-Narzędzia:
-----------------------------------------
+#Compiler for an imperative language
+
+##Tools:
+---
 Python
 sly
 
-Pliki:
-----------------------------------------
+##Files:
+---
 ReadMe.txt
 Kompilator.py
 structures.py
 lexer_parser.py
 code_generator.py
-----------------------------------------
-Kompilacja:
-python Kompilator.py <nazwa-pliku-wejsciowego> <nazwa-pliku-wyjsciowego>
+---
+##Running the Compiler:
+python Kompilator.py <input-file-name> <output-file-name>
