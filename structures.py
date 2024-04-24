@@ -1,3 +1,4 @@
+#file with structures used in code_generator
 class Variable:
     def __init__(self, name, memory, argument):
         self.value = False
@@ -18,13 +19,13 @@ class Array:
             self.memoryLocation = memory
             self.name = name
             self.size = None
-            self.values = True
+            self.values = False
             self.argument = argument
         else:
             self.memoryLocation = memory
             self.name = name
             self.size = size
-            self.values = [size]
+            self.values = False
             self.argument = argument
 
 

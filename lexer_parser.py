@@ -1,5 +1,5 @@
 from sly import Lexer, Parser
-
+#lexer and parser which creat AST tree
 class MyLexer(Lexer):
     tokens = {PROCEDURE, IS, IN, END, PROGRAM, IF, THEN, ELSE, ENDIF, WHILE, DO, ENDWHILE, REPEAT, UNTIL, READ, WRITE, NUM, PIDENTIFIER, EQ, NEQ, GT, LT, GEQ, LEQ, ASSIGN, T}
     literals = {'+','-','*','/','%',',',';','(',')','[',']'}
