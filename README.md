@@ -12,4 +12,4 @@
 - code_generator.py
 
 ## Running the Compiler:
-python Kompilator.py <input-file-name> <output-file-name>
+python Kompilator.py "input-file-name" "output-file-name"
